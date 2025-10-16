@@ -61,8 +61,11 @@ The core Python packages used:
     ```
     project_root/
       db/
-        alice1.jpg
-        bob1.jpg
-        ...
+        Bill Gates/
+          photo1.jpg
+          ...
+        Elon Musk/
+          photo1.jpg
+          ...        
     ```
   - DeepFace will return identity paths which the current code parses to extract a person name using string splitting; ensure your `db` structure matches that parsing or adapt the parsing logic.
